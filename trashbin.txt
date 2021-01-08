@@ -1,0 +1,32 @@
+<span>Photo by <a href="https://unsplash.com/@mbaumi?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mika Baumeister</a> on <a href="https://unsplash.com/s/photos/finance?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+https://colorhunt.co/palette/219713
+
+la previdenza sociale trasferisce risorse alle categorie che versano i tributi alla popolazione - Redistribuzione
+l'assistenza sociale trasferisce risorse dalle persone che hanno redditi soggetti a imposizione fiscale a quelli che percepiscono sussidi - Redistribuzione
+la prestazione a tutela della salute determina una redistribuzione a favore degli ammalati, che usufruiscono le cure finanziate dalla collettività - redistribuzione
+fase di recessione aumenta l'erogazione di prestazioni previdenziali e sussidi assistenziali - stabilizzazione
+nelle fasi di espansione aumenta l'entità dei contributi previdenziali in modo da ridurre le disponibilità liquide della famiglie delle imprese per frenare la domanda globale - Stabilizzazione
+versamento di contributi previdenziali costituisce una forma di risparmio forzato - sviluppo
+effetti negativi quando le persone hanno minore incentivi a lavorare e risparmiare - sviluppo
+
+
+const contDemand= document.querySelectorAll('.exBox')
+console.log(contDemand)
+contDemandAr = Array.from(contDemand)
+console.log(contDemandAr)
+for(i=0; i<4; i++){
+  while(contDemandAr[i].firstChild) {
+    var box = contDemandAr[i].lastChild
+    demandBox.appendChild(box)
+    contDemandAr[i].removeChild(contDemandAr[i].lastChild)
+  }
+}
+
+console.log(typeof(answAr[0]))
+console.log(answAr[0])
+console.log(answAr[0].id)
+console.log(typeof(contAr[0]))
+console.log(contAr[0])
+console.log(contAr[0].id)
+console.log(contAr[0].childNodes)
+console.log(answAr.length)

@@ -1,0 +1,318 @@
+
+body{
+  margin: 0;
+  font-family: 'Titillium Web', sans-serif;
+  color: #eeeeee;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+  height: 100vh;
+}
+
+@media screen and (max-width: 990px) {
+  .container-fluid{
+    height: 170vh;
+  }
+
+  .imgfront img{
+    margin: 10% 0 0 0;
+    width: 100%;
+  }
+
+  .imgfront{
+    text-align: center;
+  }
+}
+
+.box-mod{
+  background-color: #222831;
+}
+
+.nav-modi{
+  padding: 0 0 3rem;
+}
+
+.toggler-pers{
+  color: #eeeeee;
+}
+
+.nav-link-pers{
+  color: #eeeeee;
+  font-size: 1.5rem;
+}
+
+.nav-link-pers-brand{
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 804px) {
+  .nav-link-pers{
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .nav-link-pers{
+    font-size: 1rem;
+  }
+}
+
+.nav-link-pers:hover{
+  color: #696e76;
+  transition: 0.3s;
+}
+
+.big-title{
+  font-weight: 700;
+  font-size: 4.5rem;
+}
+
+.title-mod{
+  padding-left: 0.05%;
+  font-family: 'Yellowtail', sans-serif;
+  color: #ffd369;
+  font-weight: 700;
+}
+
+.btn-modi{
+  color: #ffd369;
+  border-color: #ffd369;
+  margin-top: 2rem;
+}
+
+.btn-modi:hover{
+  color: #222831;
+  background-color:#ffd369;
+  border-color: #ffd369;
+}
+
+@media screen and (min-width: 991px) {
+  .imgfront{
+    text-align: right;
+  }
+
+  .imgfront img{
+    width: 80%;
+    height: 70vh;
+  }
+}
+
+/*Exercise page*/
+
+.start-notification{
+  z-index: 3000;
+  position: absolute;
+  width: 50rem;
+  height: 20rem;
+  background-color: white;
+  top: 35%;
+  left: 29%;
+  padding: 3%;
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.start-notification h2{
+  color: #222831;
+}
+
+.cnt{
+  text-align: center;
+}
+
+.big-title-2{
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+.exBox{
+  height: 50vh;
+  border: solid 1px black;
+  background-color: #ffd369;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.exBox h3{
+  font-size: 3rem;
+  position: absolute;
+  top: 40%;
+  color: #222831;
+  opacity: 0.5;
+}
+
+.buttonCont{
+  text-align: center;
+}
+
+.buttonCont button{
+  margin: 20%;
+}
+
+.demandBox{
+  margin: 1rem 0;
+  position: relative;
+  height: 12rem;
+  background-color: #393e46;
+  padding: 1rem 0;
+  border-radius: 5%;
+}
+
+.demand{
+  width: 11rem;
+  height: 10rem;
+  background-color: #eeeeee;
+  text-align: center;
+  border-radius: 5%;
+  position: absolute;
+  left: 9rem;
+  border: 6px solid #222831;
+  overflow: scroll;
+  cursor: grab;
+}
+
+.demand:hover{
+  border: 6px solid #ffd369;
+  /*transition: 0.3s;*/
+}
+
+.demand p{
+  color: #393e46;
+  margin: 1rem;
+}
+
+.dragging{
+  border: 2px solid #ffd369;
+  cursor: grabbing;
+}
+
+.positioned{
+  position: static;
+  overflow: scroll;
+  margin: 1rem;
+}
+
+.positioned p{
+  color: #393e46;
+  margin: 1rem;
+}
+
+.rightAns{
+  border: 10px solid rgb(144, 238, 144);
+}
+
+.wrongAns{
+  border: 10px solid red;
+}
+
+#rightBox{
+  visibility: hidden;
+  background-color: #eeeeee;
+  color: black;
+  border: solid 2px black;
+  width: 25rem;
+  height: 10rem;
+  text-align: center;
+  line-height: 3;
+  padding: 2rem 0;
+  border-radius: 7%;
+  position: absolute;
+  top: 28%;
+  left: 40%;
+  z-index: 2000;
+}
+
+/* Team */
+
+.imgBox{
+  width: 100%;
+  height: 27rem;
+  margin: 8rem 0;
+  text-align: center;
+}
+
+.imgBox img{
+  width: 50%;
+  height: 50%;
+  border-radius: 100%;
+  transition: 0.3s;
+}
+
+.imgBox p{
+  margin: 1rem 0;
+  font-size: 1.7rem;
+}
+
+.imgBox img:hover{
+  transform: scale(1.15);
+  transition: 0.3s;
+}
+
+/*slides*/
+
+.title-slides{
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.list-element-sl{
+  margin: 2% 0 0;
+  transition: 0.4s;
+}
+
+.list-element-sl:hover{
+  color: #ffd369;
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+.icon-mod{
+  font-size: 0.7rem;
+  margin: 0 1%;
+}
+
+.list-ini a{
+  color: white;
+  text-decoration: none;
+}
+
+.sildesimg{
+  max-height: 35rem;
+}
+
+/*slide1*/
+
+.allo{
+  text-align: center;
+  position: relative;
+}
+
+.allo h3{
+  margin: 10% 0 0;
+}
+
+.picallo{
+  position: absolute;
+  max-width: 100%;
+  max-height: 25rem;
+  left: 25%;
+  top: 180px;
+}
+
+.big-t-l{
+  text-decoration: none;
+  margin: 1%;
+}
+
+.resLink{
+  color: #ffd369;
+  text-decoration: none;
+}
+
+.resLink:hover{
+  color: #ffd369;
+}
